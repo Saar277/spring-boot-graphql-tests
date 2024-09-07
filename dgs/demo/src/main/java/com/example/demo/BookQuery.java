@@ -17,7 +17,7 @@ public class BookQuery {
         long startTime = System.currentTimeMillis();
         ArrayList<Book> books = new ArrayList<>();
 
-        for (int index = 0; index < 500; index++) {
+        for (int index = 0; index < 5000; index++) {
             books.addAll(Arrays.asList(
                     new Book("book-1", "Effective Java", 416, "author-1"),
                     new Book("book-2", "Hitchhiker's Guide to the Galaxy", 208, "author-2"),

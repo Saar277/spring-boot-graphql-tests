@@ -1,6 +1,7 @@
 #####################
 vu: 200
 duration: 5m
+1500 books per query
 
 2.7:
 avg - 113ms
@@ -18,6 +19,7 @@ max - 5s
 #####################
 vu: 30
 duration: 30m
+1500 books per query
 
 2.7:
 avg - 27ms
@@ -36,6 +38,7 @@ max - 2.16s
 #####################
 vu: 100
 duration: 30m
+1500 books per query
 
 2.7:
 avg - 73ms
@@ -53,6 +56,7 @@ max - 855ms
 #####################
 vu: 100
 duration: 3h
+1500 books per query
 
 2.7:
 avg - 67ms
@@ -65,4 +69,76 @@ max - 7.35s
 dgs:
 avg - 59ms
 max - 3.9s
+#####################
+
+#####################
+vu: 100
+duration: 3h
+1500 books per query
+
+2.7:
+avg - 101ms
+max - 7.2s
+
+3.3.3:
+avg - 64ms
+max - 11.5s
+
+dgs:
+avg - 73ms
+max - 6.22s
+#####################
+
+#####################
+vu: 50
+duration: 10m
+15000 books per query
+
+2.7:
+avg - 2.37s
+max - 8.34s
+
+3.3.3:
+avg - 2.3s
+max - 21s
+
+dgs:
+avg - 2.32s
+max - 25s
+#####################
+
+#####################
+vu: 10
+duration: 10m
+15000 books per query
+
+2.7:
+avg - 317ms
+max - 2s
+
+3.3.3:
+avg - 222ms
+max - 5.68s
+
+dgs:
+avg - 265ms
+max - 3.62s
+#####################
+
+#####################
+vu: 1
+duration: 10m
+15000 books per query
+
+2.7:
+avg - 107ms
+max - 1s
+
+3.3.3:
+avg - 61ms
+max - 1.5s
+
+dgs:
+avg - 79ms
+max - 1.43s
 #####################
