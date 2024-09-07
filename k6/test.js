@@ -1,8 +1,8 @@
 import http from "k6/http";
 
 export let options = {
-  duration: "3h", // The test will run for 30 seconds
-  vus: 100, // Number of virtual users
+  duration: "30m", // The test will run for 30 seconds
+  vus: 200, // Number of virtual users
 };
 
 const port = __ENV.port;
