@@ -1,0 +1,15 @@
+regular:
+
+k6 run test.js -e port=1212 -e apiName=3.3.3
+
+k6 run test.js -e port=2323 -e apiName=2.7
+
+k6 run test.js -e port=6969 -e apiName=DGS
+
+
+async:
+k6 run async.js -e port=1212 -e apiName=3.3.3
+
+k6 run async.js -e port=2323 -e apiName=2.7
+
+k6 run test.js -e port=6969 -e apiName=DGS
